@@ -170,3 +170,37 @@ section {
 }
 
 /*swiper style end*/
+/*availability section starts*/
+.availability .flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2rem;
+}
+
+.availability .box p {
+    font-size: 2rem;
+    color: var(--sub-color);
+}
+
+.availability .box {
+    flex: 1 1 20rem;
+}
+
+.availability .box .input {
+    width: 100%;
+    padding: 1rem 0;
+    font-size: 1.8rem;
+    background-color: var(--main-color);
+    color: var(--white);
+    border-bottom: var(--border);
+    margin: 1rem 0;
+}
+
+
+.availability input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+
+/*availability section ends*/

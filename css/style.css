@@ -204,3 +204,49 @@ section {
 
 
 /*availability section ends*/
+
+/*about section starts*/
+.about .row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 4rem;
+    margin: 2rem 0;
+
+
+
+}
+
+.about .row .image {
+    flex: 1 1 50rem;
+
+}
+
+.about .row .content {
+    flex: 1 1 50rem;
+    text-align: center;
+}
+
+.about .row .image img {
+    border-radius: 2rem;
+    height: 80vh;
+    width: 100%;
+}
+
+.about .row .content h1 {
+    font-size: 3rem;
+    color: var(--sub-color);
+}
+
+.about .row .content p {
+    font-size: 1.8rem;
+    color: var(--sub-color);
+    margin: 2rem 0;
+}
+
+.about .reverse {
+    flex-flow: row-reverse;
+    flex-wrap: wrap;
+}
+
+/*about section ends*/

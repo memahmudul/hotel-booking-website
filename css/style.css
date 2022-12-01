@@ -322,3 +322,16 @@ section {
 }
 
 /*reservation section ends*/
+
+/*gallery section starts*/
+
+
+.gallery img {
+
+    width: 60rem;
+    height: 40rem;
+    border-radius: .5rem;
+
+}
+
+/*gallery section ends*/

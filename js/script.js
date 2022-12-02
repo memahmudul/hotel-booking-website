@@ -1,3 +1,12 @@
+document.querySelectorAll('.contact .row .question .box h3').forEach(faqBox => {
+    faqBox.onclick = () => {
+        faqBox.parentElement.classList.toggle('active');
+    }
+});
+
+
+
+
 var swiper = new Swiper(".home-slider", {
     loop: true,
     effect: "coverflow",
@@ -31,5 +40,14 @@ var swiper = new Swiper(".gallarySwiper", {
     },
     pagination: {
         el: ".swiper-pagination",
+    },
+});
+
+var swiper = new Swiper(".reviewsSwiper", {
+    slidesPerView: 2,
+    spaceBetween: 30,
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
     },
 });

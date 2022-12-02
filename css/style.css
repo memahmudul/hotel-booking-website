@@ -335,3 +335,102 @@ section {
 }
 
 /*gallery section ends*/
+/*conatct section starts*/
+.contact .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.contact .row form {
+    flex: 1 1 50rem;
+    text-align: center;
+    padding: 2rem;
+    border: var(--border);
+    border-radius: .5rem;
+}
+
+.contact .row .question {
+    flex: 1 1 50rem;
+}
+
+.contact .row form h1 {
+    background-color: var(--sub-color);
+    color: var(--main-color);
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 1.8rem 0;
+    border-radius: .5rem;
+}
+
+
+.contact .row form .input {
+    display: block;
+    width: 100%;
+    margin: 1rem 0;
+    padding: 1.5rem 0;
+    border-radius: .5rem;
+    background-color: transparent;
+    border-bottom: var(--border);
+    color: var(--sub-color);
+    font-size: 1.8rem;
+}
+
+.contact .row .question h1 {
+    font-size: 3rem;
+    color: var(--sub-color);
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.contact .row .question .box h3 {
+    color: var(--main-color);
+    background-color: var(--sub-color);
+    font-size: 2rem;
+    font-weight: 700;
+    border-radius: .5rem .5rem 0 0;
+    padding: 1.5rem 1rem;
+    margin: 2rem 0 0 0;
+    cursor: pointer;
+}
+
+.contact .row .question .box p {
+    font-size: 1.8rem;
+    border: var(--border);
+    padding: 2rem;
+    color: var(--sub-color);
+    display: none;
+
+}
+
+.contact .row .question .box.active p {
+    display: inline-block;
+}
+
+
+/*contact section ends*/
+
+
+.reviews .box {
+
+    text-align: center;
+}
+
+.reviews .box img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.reviews .box h3 {
+    color: var(--sub-color);
+    font-weight: 700;
+    margin: 2rem 0;
+    font-size: 2rem;
+}
+
+.reviews .box p {
+    color: var(--sub-color);
+    font-size: 1.5rem;
+}
